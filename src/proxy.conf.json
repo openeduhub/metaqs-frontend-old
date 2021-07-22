@@ -1,0 +1,9 @@
+{
+    "/api": {
+        "target": "https://metaqs-api.openeduhub.net",
+        "secure": false,
+        "pathRewrite": {
+            "^/api": ""
+        }
+    }
+}

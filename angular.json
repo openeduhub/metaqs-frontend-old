@@ -76,7 +76,8 @@
               "browserTarget": "metaqs-frontend:build:production"
             },
             "development": {
-              "browserTarget": "metaqs-frontend:build:development"
+              "browserTarget": "metaqs-frontend:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
